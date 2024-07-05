@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>zakah-project</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>حساب الزكاة في الاسلام</h2>
+        <h2>Zakat Calculation in Islam</h2>
+           <h2 id="error"> error!! اختار نوع من فضلك</h2>
+           <h2 id="errorNum"> error!! ادخل رقم من فضلك</h2>
+       <div class="elements">
+            <div class="calc">
+               <div class="calc-ele">
+                <input type="number" placeholder="ادخل الرقم" id="number">
+                <button id="select">اختار النوع </button>
+                <ul id="items">
+                    <li id="gold">الذهب من عيار 24 جرام نقي</li>
+                    <li id="zakah-money">زكاة المال </li>
+                    <li id="bussiness">زكاة التجارة</li>
+                    <li id="rekaz">زكاة الركاز</li>
+                </ul>
+                <button id="btn-result">النتيجة</button>
+               </div>
+            </div>
+            
+            <div class="result">
+                <h2>القيمة</h2>
+                <p id="zakah-result"></p>
+            </div>
+
+       </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
