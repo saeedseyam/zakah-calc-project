@@ -158,7 +158,7 @@ p{
     .calc{
         width: 100%;
         height: 40vh;
-        margin-top: 30px;
+        margin-top: 10px;
         direction: rtl;
         position: relative;
     }
@@ -194,10 +194,13 @@ p{
         border: none;
         z-index: 1;
     }
+
+    p{
+        margin-top: 40px;
+    }
     
    
-}
-
+} 
 @media (max-width:1280px){
     .calc-ele input {
         width: 68%;
